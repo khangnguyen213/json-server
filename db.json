@@ -1,9 +1,19 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
+ {
+  "properties": [
+    { "id": "1", "no": "1", "code": "A01", "name": "John Doe", "status": "Active" },
+    { "id": "2", "no": "2", "code": "A02", "name": "Jane Doe", "status": "Inactive" },
+    { "id": "3", "no": "3", "code": "A03", "name": "Jim Doe", "status": "Active" },
+    { "id": "4", "no": "4", "code": "A04", "name": "Jill Doe", "status": "Inactive" },
+    { "id": "5", "no": "5", "code": "A05", "name": "Joe Doe", "status": "Active" },
+    { "id": "6", "no": "6", "code": "A06", "name": "Jack Doe", "status": "Inactive" },
+    { "id": "7", "no": "7", "code": "A07", "name": "Jenny Doe", "status": "Active" },
+    { "id": "8", "no": "8", "code": "A08", "name": "Jerry Doe", "status": "Inactive" },
+    { "id": "9", "no": "9", "code": "A09", "name": "Jade Doe", "status": "Active" },
+    { "id": "10", "no": "10", "code": "A10", "name": "Jade Doe", "status": "Active" },
+    { "id": "11", "no": "11", "code": "A11", "name": "Jade Doe", "status": "Active" }
+  ]
+},
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
