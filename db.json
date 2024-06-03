@@ -1,5 +1,5 @@
 {
- {
+ 
   "properties": [
     { "id": "1", "no": "1", "code": "A01", "name": "John Doe", "status": "Active" },
     { "id": "2", "no": "2", "code": "A02", "name": "Jane Doe", "status": "Inactive" },
@@ -12,8 +12,7 @@
     { "id": "9", "no": "9", "code": "A09", "name": "Jade Doe", "status": "Active" },
     { "id": "10", "no": "10", "code": "A10", "name": "Jade Doe", "status": "Active" },
     { "id": "11", "no": "11", "code": "A11", "name": "Jade Doe", "status": "Active" }
-  ]
-},
+  ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
