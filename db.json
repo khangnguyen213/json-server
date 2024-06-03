@@ -13,6 +13,19 @@
     { "id": "10", "no": "10", "code": "A10", "name": "Jade Doe", "status": "Active" },
     { "id": "11", "no": "11", "code": "A11", "name": "Jade Doe", "status": "Active" }
   ],
+   "tenants": [
+    { "id": "1", "no": "1", "code": "A01", "tenant": "John Doe", "status": "Active" },
+    { "id": "2", "no": "2", "code": "A02", "tenant": "Jane Doe", "status": "Inactive" },
+    { "id": "3", "no": "3", "code": "A03", "tenant": "Jim Doe", "status": "Active" },
+    { "id": "4", "no": "4", "code": "A04", "tenant": "Jill Doe", "status": "Inactive" },
+    { "id": "5", "no": "5", "code": "A05", "tenant": "Joe Doe", "status": "Active" },
+    { "id": "6", "no": "6", "code": "A06", "tenant": "Jack Doe", "status": "Inactive" },
+    { "id": "7", "no": "7", "code": "A07", "tenant": "Jenny Doe", "status": "Active" },
+    { "id": "8", "no": "8", "code": "A08", "tenant": "Jerry Doe", "status": "Inactive" },
+    { "id": "9", "no": "9", "code": "A09", "tenant": "Jade Doe", "status": "Active" },
+    { "id": "10", "no": "10", "code": "A10", "tenant": "Jade Doe", "status": "Active" },
+    { "id": "11", "no": "11", "code": "A11", "tenant": "Jade Doe", "status": "Active" }
+  ],
   "tenantsMatching": [
     {
       "id": "1",
@@ -103,7 +116,94 @@
       "possible": "50"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "propertiesMatching": [
+    {
+      "id": "1",
+      "rank": "1",
+      "code": "A01",
+      "prop": "John Doe",
+      "status": "Active",
+      "possible": "50"
+    },
+    {
+      "id": "2",
+      "rank": "2",
+      "code": "A02",
+      "prop": "Jane Doe",
+      "status": "Inactive",
+      "possible": "40"
+    },
+    {
+      "id": "3",
+      "rank": "3",
+      "code": "A03",
+      "prop": "Jim Doe",
+      "status": "Active",
+      "possible": "70"
+    },
+    {
+      "id": "4",
+      "rank": "4",
+      "code": "A04",
+      "prop": "Jill Doe",
+      "status": "Inactive",
+      "possible": "90"
+    },
+    {
+      "id": "5",
+      "rank": "5",
+      "code": "A05",
+      "prop": "Joe Doe",
+      "status": "Active",
+      "possible": "10"
+    },
+    {
+      "id": "6",
+      "rank": "6",
+      "code": "A06",
+      "prop": "Jack Doe",
+      "status": "Inactive",
+      "possible": "20"
+    },
+    {
+      "id": "7",
+      "rank": "7",
+      "code": "A07",
+      "prop": "Jenny Doe",
+      "status": "Active",
+      "possible": "10"
+    },
+    {
+      "id": "8",
+      "rank": "8",
+      "code": "A08",
+      "prop": "Jerry Doe",
+      "status": "Inactive",
+      "possible": "50"
+    },
+    {
+      "id": "9",
+      "rank": "9",
+      "code": "A09",
+      "prop": "Jade Doe",
+      "status": "Active",
+      "possible": "50"
+    },
+    {
+      "id": "10",
+      "rank": "10",
+      "code": "A10",
+      "prop": "Jade Doe",
+      "status": "Active",
+      "possible": "50"
+    },
+    {
+      "id": "11",
+      "rank": "11",
+      "code": "A11",
+      "prop": "Jade Doe",
+      "status": "Active",
+      "possible": "50"
+    }
+  ]
 }
